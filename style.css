@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "hind-semibold";
+    src: url("font/Hind-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "hind-light";
+    src: url("font/Hind-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "hind-bold";
+    src: url("font/Hind-Bold.ttf");
+  }
+
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-items {
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: "hind-semibold";
+    font-size: 20;
+    color: #6e6d7a;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.services {
+    font-family: "hind-light";
+}
+
+
+.text {
+    padding: 40px;
+    margin-left: 20px;   
+    width: 64%;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.photo {
+    width: 36%;
+}
+
+.work {
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    border: tomato solid 1px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px; 
+    font-size: 18px;  
+    color: tomato;
+    cursor: pointer;
+    font-family: "Hind-semibold";
+ 
+}
+
+
+.contact {
+    border-style: none;
+    background-color: tomato;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;   
+    font-size: 18px;   
+    color: white;
+    font-family: "Hind-semibold";
+
+}
+
+.contact:hover {
+    border-style: none;
+    background-color: rgb(81, 210, 214);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;    
+}
+
+
+
+.ido {
+    display: flex;
+    justify-content: space-around;
+ 
+}
+  
+.whatido {
+    background-color: rgb(255, 255, 255);
+    margin: 60px;
+    padding: 4px;
+    font-family: "hind-semibold";
+    font-size: 22px;
+    
+}
+
+h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.service {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+    text-align: start;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.portfolio {
+    margin: auto;
+    width: 1000px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.producto {
+    margin: 8px;
+}
+
+.port {
+    border-radius: 6px;
+}
+
+
+.main2 {
+   margin: 10px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 120px;
+    
+}
+
+.text-about {
+    margin: 20px;
+    font-family: "hind-light";
+    font-size: 18px;
+}
+
+.photo2 {
+    width: 75%;
+}
+
+.footer {
+    background-color:#0f1221;
+    color: white;
+    height: 800px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;    
+    font-family: "hind-light"; 
+}
+
+.section1 {
+    margin-left: 40px;
+    margin-top: 60px;
+    padding-top: 80px;
+    width: 40%;
+}
+
+
+.section2 {
+    margin-top: 60px;
+    padding: 40px;
+    width: 50%;
+    }
+
+.title {
+    font-family: "hind-bold";
+    font-size: 45px;
+}
+
+.mail {
+    font-family: "hind-bold";
+}
+
+.name {
+    font-family: "hind-bold";
+    font-size: 24px;
+}
+
+.separate {
+    height: 1px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+    background-color: #1e2238;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.redes {
+    margin: 20px;
+}
+
+.about-footer {
+    background-color:#0f1221;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-items {
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 18px;
+    font-family: "hind-light";
+}
+
+.marca {
+    font-size: 18px;
+    font-family: "hind-light";
+}
